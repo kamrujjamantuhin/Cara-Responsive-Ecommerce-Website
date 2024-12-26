@@ -52,7 +52,7 @@ body {
   width: 100%;
 }
 
-/* Header Styles */
+/* Header Styles Starts */
 
 #header {
     display: flex;
@@ -62,6 +62,8 @@ body {
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
+
+/* Navbar Style Starts */
 
 #navbar {
     display: flex;
@@ -96,3 +98,46 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
+/* Navbar Styles Ends */
+
+/* Home Styles Starts */
+
+/* Hero Styles Starts */
+
+#hero {
+    background-image: url("../assets/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#hero button {
+    background-image: url("../assets/button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Hero Styles Ends */
+
+/* Header Styles Ends */
